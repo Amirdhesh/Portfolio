@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className='no-scrollbar'>
       <div>
       <div className='sticky top-0'>
         <FrontPage  />

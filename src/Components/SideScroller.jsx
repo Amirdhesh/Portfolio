@@ -69,7 +69,7 @@ export default function SideScroller() {
       </div>
       
       <div className='text-[#2C2C2C] font-Josefin font-bold text-xl'>{project.title}</div>
-      <div className='bg-transparent h-28 w-[288px] p-1 rounded-lg text-[#595959] font-Josefin font-bold text-sm text-center overflow-y-scroll scroll-smooth'>
+      <div className='bg-transparent h-28 w-[288px] p-1 rounded-lg text-[#595959] font-Josefin font-bold text-sm text-center overflow-y-scroll scroll-smooth no-scrollbar'>
         {project.description}
       </div>
       <button className='bg-[#959494] rounded-md px-8 py-1 font-Josefin font-bold flex justify-between items-center hover:bg-[#7D7B7B]' onClick={() => window.open(project.githubLink, "_blank")} rel="noopener noreferrer">
